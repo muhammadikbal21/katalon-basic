@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_InvalidLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4b757db2-ccf6-4c6c-bbc3-09e30598f37e</testCaseGuid>
+</TestCaseEntity>

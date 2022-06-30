@@ -21,14 +21,6 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_LOGIN Panel_txtUsername'), '')
-
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Username_txtPassword'), '')
-
-WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
-
-WebUI.verifyElementPresent(findTestObject('Page_OrangeHRM/span_Username cannot be empty'), 0)
-
 WebUI.setText(findTestObject('Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
 
 WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Username_txtPassword'), '')
@@ -36,24 +28,6 @@ WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Username_txtPassword
 WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
 
 WebUI.verifyElementPresent(findTestObject('Page_OrangeHRM/span_Password cannot be empty'), 0)
-
-WebUI.setText(findTestObject('Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'invalid admin')
-
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Username_txtPassword'), '0eas04sRT3wfzDtCVb+tog==')
-
-WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
-
-WebUI.verifyElementPresent(findTestObject('Page_OrangeHRM/span_Invalid credentials'), 0)
-
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
-
-WebUI.click(findTestObject('Page_OrangeHRM/a_Welcome Sanket'))
-
-WebUI.click(findTestObject('Page_OrangeHRM/a_Logout'))
 
 WebUI.closeBrowser()
 
