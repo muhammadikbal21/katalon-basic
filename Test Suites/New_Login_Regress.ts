@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>New_Login_Regress</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>a32db595-f4b7-4c77-ad92-c53b42c4491f</testSuiteGuid>
+   <testCaseLink>
+      <guid>7e3578d7-7ee9-4076-9c81-c7e97b51d243</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_New_Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>705dd211-3345-4461-a292-7443ee71173e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Login/Data_New_Login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>705dd211-3345-4461-a292-7443ee71173e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>2e0db9e0-2c4f-44c8-97f9-2c9cf615b6a8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>705dd211-3345-4461-a292-7443ee71173e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>2d57ded2-afa8-4c06-a495-bd9c1146148c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

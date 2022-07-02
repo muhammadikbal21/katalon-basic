@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_New_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92c3f71c-0762-4539-8e61-758089c5a49f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2e0db9e0-2c4f-44c8-97f9-2c9cf615b6a8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2d57ded2-afa8-4c06-a495-bd9c1146148c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
